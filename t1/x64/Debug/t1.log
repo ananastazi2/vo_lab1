@@ -1,0 +1,30 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (t1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  FirstTask.cpp
+D:\Енестейшен\Навчання\Універ\3point\1sem\ВО\l1\lab1\t1\FirstTask.cpp(55,29): warning C4244: 'return': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+  MatrixMultiplication.cpp
+D:\Енестейшен\Навчання\Універ\3point\1sem\ВО\l1\lab1\t1\MatrixMultiplication.cpp(78,29): warning C4244: 'return': conversion from '_Rep' to 'long', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+  SecondTask.cpp
+D:\Енестейшен\Навчання\Універ\3point\1sem\ВО\l1\lab1\t1\SecondTask.cpp(46,23): warning C4018: '<': signed/unsigned mismatch
+D:\Енестейшен\Навчання\Універ\3point\1sem\ВО\l1\lab1\t1\SecondTask.cpp(125,29): warning C4244: 'return': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+  Stopwatch.cpp
+  t1.cpp
+D:\Енестейшен\Навчання\Універ\3point\1sem\ВО\l1\lab1\t1\t1.cpp(70,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+D:\Енестейшен\Навчання\Універ\3point\1sem\ВО\l1\lab1\t1\t1.cpp(51): warning C4715: 'RunProgram::runFirstTask': not all control paths return a value
+D:\Енестейшен\Навчання\Універ\3point\1sem\ВО\l1\lab1\t1\t1.cpp(65): warning C4715: 'RunProgram::runSecondTask': not all control paths return a value
+D:\Енестейшен\Навчання\Універ\3point\1sem\ВО\l1\lab1\t1\t1.cpp(40): warning C4715: 'RunProgram::ValidatorForDimensions': not all control paths return a value
+D:\Енестейшен\Навчання\Універ\3point\1sem\ВО\l1\lab1\t1\SecondTask.cpp(42): warning C4715: 'SecondTask::OpenFileForReading': not all control paths return a value
+D:\Енестейшен\Навчання\Універ\3point\1sem\ВО\l1\lab1\t1\FirstTask.cpp(26): warning C4715: 'FirstTask::OpenFileForWriting': not all control paths return a value
+  t1.vcxproj -> D:\Енестейшен\Навчання\Універ\3point\1sem\ВО\l1\lab1\x64\Debug\lab1.exe
